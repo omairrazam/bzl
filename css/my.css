@@ -1,0 +1,97 @@
+/*!
+ * Overriding Basic Css
+ * done by Omair
+ * 
+ */
+
+body {
+    background-color: black;
+    color: #fff;
+}
+
+ header {
+    background-repeat: no-repeat;
+    background-size: 80% auto;
+    color: #fff;
+    
+}
+#bgvid {
+    position: fixed;
+}
+#wel_msg {
+    background-color: rgb(72,16,11);
+}
+.waw {
+    background: rgb(54, 25, 25); /* Fall-back for browsers that don't
+                                    support rgba */
+    background: rgba(54, 25, 25, .7);
+    border-radius: 15px;
+}
+.service-box{
+    min-height: 350px;
+    padding-top: 15px;
+}
+#services{
+    padding-top: 0px;
+}
+
+/*@media(min-width:800px){
+    #services ul {
+      text-align: justify ; 
+      margin-left:20%;
+    } 
+}*/
+ #services ul {
+      text-align: justify ; 
+      margin-left:20%;
+}
+p{
+    font-size: 22px;
+} 
+.prof-box{
+    border: 1px solid white;
+    margin-bottom: 15px;
+}
+.prof-header{
+    background-color: white;
+    color: rgb(72,72,72);
+    padding:5px;
+    margin: 5px;
+}
+.prof-content{
+    
+}
+.prof-content ul{
+    list-style-type: none;
+    line-height: 50px;
+    margin:0;
+    padding: 0;
+}
+.prof-footer{
+    background-color: white;
+    color: rgb(72,72,72);
+    padding:5px;
+    margin: 5px;
+}
+section {
+    padding: 80px 0;
+}
+a {
+    color: rgb(250, 235, 125);
+    transition: all 0.35s ease 0s;
+}
+.address{
+    background-color: rgb(64,15,10);
+    text-align: justify;
+}
+.address p{
+    
+    font-size: 16px;
+    padding: 20px;
+}
+
+@media  only screen and (max-width: 750px){
+    #wel_msg_cont{
+        display: none;
+    }
+}
